@@ -1,0 +1,48 @@
+.flip-horizontal {
+    transform: scaleX(-1);
+}
+
+#changeimage{
+    width: 90px;
+}
+.menuitems{
+
+}
+.menuitemsinv{
+    visibility: hidden;
+}
+#blue{
+    background-color: rgb(80, 80, 220);
+    width: 70px;
+    height: 70px;
+}
+#green{
+    background-color: rgb(48, 227, 48);
+    width: 70px;
+    height: 70px;
+
+}
+#red{
+    background-color: rgb(220, 25, 25);
+    width: 70px;
+    height: 70px;
+}
+#yellow{
+    background-color: rgb(232, 232, 23);
+    width: 70px;
+    height: 70px;
+}
+#start{
+    background-color: purple;
+    margin-top: 50px;
+    margin-left: 100px ;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.blink{
+    animation: blink 0.8s;
+}
